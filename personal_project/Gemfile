@@ -1,0 +1,37 @@
+source 'https://rubygems.org'
+
+
+gem 'rails'
+gem 'pg'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
+
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
+gem 'angularjs-rails'
+
+gem 'jbuilder'
+gem 'sdoc',          group: :doc
+
+group :test, :development do
+  gem 'rspec-rails'
+  gem 'launchy'
+  gem 'pry-byebug'
+  gem 'capybara-rails'
+  gem 'selenium-webdriver'
+  gem 'database_cleaner'
+  gem 'license_finder'
+  gem 'jasmine'
+  gem 'jasmine-jquery-rails'
+  gem 'unicorn-rails'
+  gem 'rails-erd'
+  gem 'spring'
+  gem 'spring-commands-rspec'
+  gem 'rspec-retry'
+end
+
+
+
+
+
